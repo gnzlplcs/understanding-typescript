@@ -1,0 +1,24 @@
+{
+  "name": "understanding-ts",
+  "version": "1.0.0",
+  "description": "Notes and code from the Academind's course ([from Udemy](https://www.udemy.com/course/understanding-typescript/?src=sac&kw=typescript)).",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "author": "Maximilian Schwarzmüller",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnzlplcs/understanding-typescript.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/gnzlplcs/understanding-typescript/issues"
+  },
+  "homepage": "https://github.com/gnzlplcs/understanding-typescript#readme"
+}
