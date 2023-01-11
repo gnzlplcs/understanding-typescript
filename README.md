@@ -27,3 +27,11 @@ console.log(add('2', '3')) // unwanted behavior at runtime
 + validate & sanitice user input
 + developers can still write invalid code!
 + TypeScript is a tool that helps developers write better code!
+
+## types
+
+| core types | desciption | form |
+|---|---|---|
+| number | all numbers, no differentiation between integers or floats | 1, 5.3, -10 |
+| string | all text values | 'hi' ,"hi", `hi` |
+| boolean | just truthy and false values | true, false |
