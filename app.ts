@@ -9,9 +9,13 @@ function add(n1: number, n2: number, showResult: boolean, phrase: string) {
   return result
 }
 
-const number1 = 5
+// type inference: TS understands what type is because the assignment
+// when assign con let it's possible to use another type, won't with const
+let number1: number
+number1 = 5
 const number2 = 2.8
 const printResult = true
-const resultPhrase = 'Result is: '
+let resultPhrase = 'Result is: '
+resultPhrase = 5 // type 'number' is not assignable to type 'string'
 
 add(number1, number2, printResult, resultPhrase)
